@@ -1,0 +1,19 @@
+{
+  "name": "tdd-typescript-nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsan8/tdd-typescript-nodejs-mongodb.git"
+  },
+  "author": "Dhaouadi Hassen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsan8/tdd-typescript-nodejs-mongodb/issues"
+  },
+  "homepage": "https://github.com/hsan8/tdd-typescript-nodejs-mongodb#readme"
+}
