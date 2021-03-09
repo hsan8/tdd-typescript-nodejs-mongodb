@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"tsc -p .",
-    "dev":"NODE_ENV=dev nodemon -r tsconfig-paths/register src/app.ts",
-    "test": "NODE_ENV=test mocha --check-leaks -r tsconfig-paths/register -r ts-node/register"
+    "start": "NODE_PATH=./dist node dist/app.js",
+    "dev": "NODE_ENV=dev nodemon -r tsconfig-paths/register src/app.ts",
+    "build": "tsc -p .",
+    "test": "NODE_ENV=test mocha --check-leaks -r ts-node/register -r tsconfig-paths/register \"src/test/**/*.spec.ts\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/hsan8/tdd-typescript-nodejs-mongodb#readme",
   "dependencies": {
+    "cross-env": "^7.0.3",
     "dotenv": "^8.2.0",
     "expresss": "0.0.0"
   },
